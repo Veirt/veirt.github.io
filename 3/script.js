@@ -1,29 +1,26 @@
 function toggleDark() {
-  const classes = [
-    "link",
-    "active",
-    "hero",
-    "hero-text",
-    "hero-brightness",
-    "quote-content",
-    "about-me",
-    "item",
-    "item-buy",
-    "section-title",
+  const queries = [
+    "body",
+    ".link",
+    ".hero",
+    ".hero-text",
+    ".hero-brightness",
+    ".quote-content",
+    ".about-me",
+    ".item",
+    ".item-buy",
+    ".section-title",
+    "footer",
   ];
-  for (const cls of classes) {
-    const elements = document.querySelectorAll(`.${cls}`);
+
+  for (const q of queries) {
+    const elements = document.querySelectorAll(`${q}`);
     elements.forEach((el) => {
-      el.classList.toggle(`${cls}-dark`);
+      el.classList.toggle(`dark`);
     });
   }
 
-  document.querySelector("body").classList.toggle("dark-mode-body");
   document.getElementById("toggle-dark").classList.toggle("white");
-  const footer = document.querySelector("footer");
-  if (footer) {
-    footer.classList.toggle("footer-dark");
-  }
 }
 
 /// jquery
