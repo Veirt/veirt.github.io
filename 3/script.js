@@ -1,26 +1,5 @@
 function toggleDark() {
-  const queries = [
-    "body",
-    ".link",
-    ".hero",
-    ".hero-text",
-    ".hero-brightness",
-    ".quote-content",
-    ".about-me",
-    ".item",
-    ".item-buy",
-    ".section-title",
-    "footer",
-  ];
-
-  for (const q of queries) {
-    const elements = document.querySelectorAll(`${q}`);
-    elements.forEach((el) => {
-      el.classList.toggle(`dark`);
-    });
-  }
-
-  document.getElementById("toggle-dark").classList.toggle("white");
+  document.querySelector("body").classList.toggle("dark");
 }
 
 /// jquery
