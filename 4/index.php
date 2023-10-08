@@ -52,7 +52,7 @@
           <div class="item-image">
             <img src="assets/iem/beautiful_world.png" alt="" />
           </div>
-          <div class="item-price">$777.00</div>
+          <div class="item-price">Rp. 11.791.000</div>
           <div onclick="hideItem(this)" class="item-buy">Hide</div>
         </div>
 
@@ -64,7 +64,7 @@
           <div class="item-image">
             <img src="assets/iem/tanchjim_hana.png" alt="" />
           </div>
-          <div class="item-price">$159.00</div>
+          <div class="item-price">Rp. 2.499.000</div>
           <div onclick="hideItem(this)" class="item-buy">Hide</div>
         </div>
 
@@ -76,7 +76,7 @@
           <div class="item-image">
             <img src="assets/iem/hola.png" alt="" />
           </div>
-          <div class="item-price">$19.99</div>
+          <div class="item-price">Rp. 325.000</div>
           <div onclick="hideItem(this)" class="item-buy">Hide</div>
         </div>
 
@@ -88,7 +88,7 @@
           <div class="item-image">
             <img src="assets/accessories/dawn.png" alt="" />
           </div>
-          <div class="item-price">$49.99</div>
+          <div class="item-price">Rp. 768.000</div>
           <div onclick="hideItem(this)" class="item-buy">Hide</div>
         </div>
       </div>
